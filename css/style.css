@@ -46,6 +46,7 @@ ol, ul {
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
 }
 div {
 	border: 1px solid Chocolate;
@@ -55,6 +56,8 @@ div {
 
 .content {
 	padding: 0 15px;
+	margin: 0 auto;
+	width: 970px;
 }
 
 /* Navigation Section */
@@ -63,8 +66,6 @@ div {
 }
 
 .top-navigation > .content {
-	margin: 0 auto;
-	width: 970px;
 	height: 70px;
 }
 
@@ -74,7 +75,6 @@ div {
 
 .top-navigation .links {
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
 	font-size: 16px;
 	margin-top: 25px;
@@ -102,5 +102,33 @@ div {
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* height: 45.938rem; */
-	height: 430px;
+	height: 560px;
+	padding: 10em;
 	}
+
+.introduction .content {
+	color: white;
+	text-align: center;
+	padding: 0.2em;
+}
+
+.introduction h1 {
+	font-size: 3em;
+}
+
+.introduction h3{
+	font-size: 2em;
+}
+
+.big-button {
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 16px 26px;
+	line-height: 1.33;
+	color: white;
+	background-color: #f15a29;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1em;
+}
