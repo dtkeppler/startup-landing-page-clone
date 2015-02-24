@@ -159,3 +159,16 @@ div {
 	height: 4em;
 	justify-content: space-around; */
 }
+
+.cases .captions {
+	width: 33.3333333%;
+	display: inline-flex;
+	border: none;
+	margin-right: -4px;
+	justify-content: space-around;
+	/* styles to assist with debugging 
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+	justify-content: space-around; */
+}
