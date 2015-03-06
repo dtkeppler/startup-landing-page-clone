@@ -163,8 +163,12 @@ body {
 }
 
 .devices-icons li {
-	margin: 0 auto;
 	padding: 5px;
+}
+
+.devices-icons li img {
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 .devices-captions {
@@ -201,6 +205,7 @@ body {
 .copy {
 	display: flex;
 	justify-content: center;
+}
 
 .footer .content {
 	padding: 0 15px;
