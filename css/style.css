@@ -144,7 +144,7 @@ body {
 }
 
 
-/* Begin NEW styling for cases section */
+/* Begin styling for cases section */
 
 .cases {
 	margin: 100px auto;
@@ -176,12 +176,12 @@ body {
 	margin: 2.5rem 0px 1.875rem;
 }
 
-/* End NEW styling for cases section */
+/* End styling for cases section */
 /* Begin styling for footer section */
 
 
 .social {
-	padding: 30px 30px;
+	padding-bottom: 150px;
 }
 
 .social hr {
@@ -217,6 +217,7 @@ body {
 .footer-intro {
 	justify-content: center;
 	display: flex;
+	margin-top: 15px;
 }
 
 .facebook,
@@ -225,6 +226,20 @@ body {
 	margin: 10px;
 }
 
+li.twitter {
+	color: #55acee;
+}
+
+li.facebook {
+	color: #4c66a4;
+}
+
+li.instagram {
+	color: #3f729b;
+}
+
 .copy {
 	font-size: 0.9rem;
+	font-weight: 300;
+	color: #838994;
 }
