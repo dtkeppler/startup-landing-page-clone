@@ -225,6 +225,18 @@ body {
 	margin: 10px;
 }
 
+li.twitter {
+	color: #55acee;
+}
+
+li.facebook {
+	color: #4c66a4;
+}
+
+li.instagram {
+	color: #3f729b;
+}
+
 .copy {
 	font-size: 0.9rem;
 }
